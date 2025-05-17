@@ -17,22 +17,22 @@ int main(){
     //Salvando os dados da primeira carta
     printf("Bem-vindo ao Super Trunfo! Para começar, digite os dados de sua carta!\n|----Primeira Carta----|");
 
-    printf("\nQual o estado da carta? ");
+    printf("\nQual o estado da carta? (letra de A a H) ");
     scanf(" %c", &estado1);
 
-    printf("Qual o codigo da carta? ");
+    printf("Qual o codigo da carta? (máximo de 3 letras. Ex: A03) ");
     scanf("%s", &codigoDaCarta1);
 
     printf("Qual o nome da cidade? ");
     scanf("%s", &nomeDaCidade1);
 
-    printf("Qual o tamanho população? ");
+    printf("Qual o tamanho população? (Deve ser numero inteiro) ");
     scanf("%d", &populacao1);
 
-    printf("Qual a área? ");
+    printf("Qual a área? (Use o ponto no lugar da vírgula) ");
     scanf("%f", &area1);
 
-    printf("Qual o pib? ");
+    printf("Qual o pib? (Use o ponto no lugar da vírgula) ");
     scanf("%f", &pib1);
 
     printf("Qual o numero de pontos turisticos? ");
@@ -41,22 +41,22 @@ int main(){
     //Salvando os dados da segunda carta
     printf("\n|----Segunda Carta----|");
 
-    printf("\nQual o estado da carta? ");
+    printf("\nQual o estado da carta? (letra de A a H) ");
     scanf(" %c", &estado2);
 
-    printf("Qual o codigo da carta? ");
+    printf("Qual o codigo da carta? (máximo de 3 letras. Ex: A03) ");
     scanf("%s", &codigoDaCarta2);
 
     printf("Qual o nome da cidade? ");
     scanf("%s", &nomeDaCidade2);
 
-    printf("Qual o tamanho população? ");
+    printf("Qual o tamanho população? (Deve ser numero inteiro) ");
     scanf("%d", &populacao2);
 
-    printf("Qual a área? ");
+    printf("Qual a área? (Use o ponto no lugar da vírgula) ");
     scanf("%f", &area2);
 
-    printf("Qual o pib? ");
+    printf("Qual o pib? (Use o ponto no lugar da vírgula) ");
     scanf("%f", &pib2);
 
     printf("Qual o numero de pontos turisticos? ");
