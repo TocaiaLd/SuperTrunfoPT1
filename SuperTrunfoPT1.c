@@ -27,7 +27,7 @@ int main(){
     scanf("%s", &nomeDaCidade1);
 
     printf("Qual o tamanho população? (Deve ser numero inteiro) ");
-    scanf("%d", &populacao1);
+    scanf("%lu", &populacao1);
 
     printf("Qual a área? (Use o ponto no lugar da vírgula) ");
     scanf("%f", &area1);
@@ -51,7 +51,7 @@ int main(){
     scanf("%s", &nomeDaCidade2);
 
     printf("Qual o tamanho população? (Deve ser numero inteiro) ");
-    scanf("%d", &populacao2);
+    scanf("%lu", &populacao2);
 
     printf("Qual a área? (Use o ponto no lugar da vírgula) ");
     scanf("%f", &area2);
